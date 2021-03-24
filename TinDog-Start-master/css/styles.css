@@ -1,0 +1,194 @@
+
+#title {
+    background-color: #ff4c68;
+}
+
+#title h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;    
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.titleImage {
+    transform: rotate(35deg);
+    width: 60%;
+    position: absolute;
+    z-index: 2;
+    left: 20%;
+}
+
+/*navigation bar */
+
+.navbar  {
+    padding-bottom: 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.8rem;
+}
+
+.navbar-brand {
+    font-family: "Baloo Tammudu 2";
+    font-weight: 600;
+    font-size: 60px;
+  }
+
+/*download buttons*/
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/*features row */
+
+#features {
+    padding: 7% 15%;
+    position: relative;
+    z-index: 2;
+    background-color: white;
+}
+
+.features-row h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.features-row p {
+    font-size: 25px;
+    color: #8f8f8f;
+}
+
+.features-row {
+    text-align: center;
+}
+
+.features-row i {
+   color: #ef8172;
+   font-size: 70px;
+   padding-bottom: 15px;
+  }
+
+  .features-row i:hover {
+    color: #ff4c68;
+   }
+
+.box {
+    padding: 5%;
+}
+
+#testimonials {
+   
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+    position: relative;
+    top: -200px;
+    z-index: 3
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+    position: relative;
+    top: -200px;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px; /* 20 px top, 20 px left and right, 50 px on the bottom */
+}
+
+#pricing {
+    margin: 30px;
+    padding: 30px;
+    text-align: center;
+    position:relative;
+    top: -100px;
+}
+
+.pricingTitle {
+    font-size: 40px;
+    font-family: "Baloo Tammudu 2";
+}
+
+#pricing p {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 15px;
+    font-weight: 50;
+    font-size: 20px;
+}
+
+#pricing .row {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card {
+    margin: 20px;
+}
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .titleImage {
+        position: static;
+        transform: rotate(0);
+    }
+
+}
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+#cta h3 {
+    font-weight: 900;
+    font-size: 40px;
+    color: white;
+    line-height: 20px;
+    padding-top: 40px;
+    top: 40px;
+}
+
+.icons {
+    font-size: 30px;
+    text-align: center;
+}
+
+.icons i {
+    margin: 10px;
+    margin-top:30px;
+}
+
+#footer {
+    font-family: "Baloo Tammudu 2";
+    text-align: center;
+}
+
+
